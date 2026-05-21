@@ -1,0 +1,6 @@
+{
+  "name": "Chums Cafe",
+  "description": "A premium, quiet-luxury gaming lounge and culinary cafe in Mumbai, marrying high-performance PS5 and PC gaming with elegant dining.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
