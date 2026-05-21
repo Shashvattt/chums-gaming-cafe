@@ -4,6 +4,7 @@
  */
 
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -51,6 +52,9 @@ export default function App() {
 
       {/* Interactive Reservation Portal container */}
       <BookingModal isOpen={isBookingOpen} onClose={handleCloseBooking} />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
